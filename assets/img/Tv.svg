@@ -1,0 +1,20 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 20C16 17.7909 17.7909 16 20 16H52C54.2091 16 56 17.7909 56 20V40C56 42.2091 54.2091 44 52 44H20C17.7909 44 16 42.2091 16 40V20Z" fill="url(#tv_screen)" />
+  <path d="M18 22H54V38H18V22Z" fill="url(#tv_inner)" />
+  <path d="M32 44H40V50H32V44ZM26 50H46V52H26V50Z" fill="url(#tv_stand)" />
+  <defs>
+    <linearGradient id="tv_screen" x1="16" y1="16" x2="56" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E50914" />
+      <stop offset="0.5" stop-color="#962696" />
+      <stop offset="1" stop-color="#E50914" />
+    </linearGradient>
+    <radialGradient id="tv_inner" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#FF5252" />
+      <stop offset="1" stop-color="#2B002B" />
+    </radialGradient>
+    <linearGradient id="tv_stand" x1="26" y1="44" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E50914" />
+      <stop offset="1" stop-color="#5A0012" />
+    </linearGradient>
+  </defs>
+</svg>
