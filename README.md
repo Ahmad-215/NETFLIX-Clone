@@ -33,4 +33,5 @@ Follow these simple steps to run the project locally on your machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Ahmad-215/Netflix-Clone.git](https://github.com/Ahmad-215/Netflix-Clone.git)
+[   git clone [https://github.com/Ahmad-215/Netflix-Clone.git](https://github.com/Ahmad-215/Netflix-Clone.git)
+](https://github.com/Ahmad-215/NETFLIX-Clone/tree/main)
