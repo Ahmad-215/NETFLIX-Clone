@@ -12,6 +12,18 @@ body {
 
 }
 
+.demo-banner {
+    background: #DA1717;
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    position: relative;
+    z-index: 50;
+}
+
 .main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/banner.jpg);
     min-height: 100vh;
@@ -155,6 +167,12 @@ nav div a {
     font-weight: bold;
 }
 
+.field:disabled,
+.cta-input:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
 .hero button {
     width: 200px;
     background-color: #DA1717;
@@ -165,6 +183,7 @@ nav div a {
     font-size: 26px;
     border-radius: 5px;
     margin: 10px;
+    cursor: not-allowed;
 }
 
 @media (max-width: 500px) {
@@ -384,24 +403,16 @@ main {
     border-radius: 8px;
 }
 
-.scroll-container>div>img {
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-
-}
-
-.scroll-container>div>img {
+.placeholder-thumb {
+    background: linear-gradient(160deg,
+            hsl(calc(var(--hue)), 70%, 30%) 0%,
+            hsl(calc(var(--hue) + 40), 60%, 15%) 100%);
     transition: transform 0.3s ease-in-out, filter 0.3s ease;
 }
 
-.scroll-container>div>img:hover {
+.placeholder-thumb:hover {
     transform: scale(1.08);
-    filter: brightness(1.1);
-
+    filter: brightness(1.15);
 }
 
 .questions {
@@ -586,7 +597,7 @@ main {
     font-size: 24px;
     border-radius: 5px;
     margin: 0;
-    cursor: pointer;
+    cursor: not-allowed;
     flex-shrink: 0;
 }
 
