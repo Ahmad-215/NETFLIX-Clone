@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Pakistan- Watch TV Shows and Movies</title>
+    <title>StreamFlex - Watch TV Shows and Movies (Student Demo Project)</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <div class="demo-banner">
+        🎓 This is a student portfolio demo built by Ahmad Hassan. Not affiliated with any real streaming service — no data is collected or stored.
+    </div>
     <header>
 
         <div class="main">
             <nav>
                 <span>
-                    <img src="assets/img/Logo.svg">
+                    <img src="assets/img/Logo.svg" alt="StreamFlex logo">
                 </span>
                 <div class="button">
                     <button type="submit" class="button" id="alonebutton">文A English </button>
@@ -27,11 +30,11 @@
                 <span>Unlimited movies, TV</span>
                 <span>shows, and more</span>
                 <span>Starts at Rs 250. Cancel anytime.</span>
-                <span>Ready to watch? Enter your email to create or restart your membership.</span>
+                <span>This is a demo form — it does not submit or store anything.</span>
             </div>
             <div class="hero">
-                <input class="field" name="email" type="text" placeholder="Enter your E-mail">
-                <button id="b1" type="submit">Get Started &gt;</button>
+                <input class="field" name="email" type="text" placeholder="Enter your E-mail (demo only)" disabled>
+                <button id="b1" type="button" onclick="return false;">Get Started &gt;</button>
             </div>
         </div>
     </header>
@@ -52,7 +55,7 @@
                         <h3>
                             Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
                         </h3>
-                        <img src="assets/img/Tv.svg" alt="image">
+                        <img src="assets/img/Tv.svg" alt="TV icon">
                     </div>
                     <div class="card2">
                         <h1>
@@ -61,7 +64,7 @@
                         <h3>Save your favorites easily and always have something to watch.
 
                         </h3>
-                        <img src="assets/img/Arrow.svg" alt="image">
+                        <img src="assets/img/Arrow.svg" alt="Download icon">
                     </div>
                     <div class="card3">
                         <h1>
@@ -70,7 +73,7 @@
                         <h3>
                             Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
                         </h3>
-                        <img src="assets/img/Telescope.svg" alt="image">
+                        <img src="assets/img/Telescope.svg" alt="Devices icon">
                     </div>
                     <div class="card4">
                         <h1>
@@ -81,7 +84,7 @@
                             Send kids on adventures with their favorite characters in a space made just for them — free
                             with your membership.
                         </h3>
-                        <img src="assets/img/Chat.svg" alt="image">
+                        <img src="assets/img/Chat.svg" alt="Kids icon">
                     </div>
                 </div>
             </div>
@@ -91,26 +94,11 @@
                 <h1>Trending</h1>
                 <div class="scroll-container">
 
-                    <div class="item"><img
-                            src="https://occ-0-1917-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZSCelQ5pahMlV7dR3yh0Sc7tnxT0P4JF35sdHJ4C6oPn7JD1d2KJRMHQbo-xzjkjylmBnManMMPXvavZ1KizJyI4fcZTweuVXE.webp?r=367"
-                            alt=""></div>
-
-                    <div class="item"><img
-                            src="https://occ-0-1917-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdASUN6RmS_9Cz6RcM4PKxYy7dodzanPKLVynf3XovDr3AcakvtDLt5PVphbOEWfopc547BO194AXv3WsY4MT8efTOi8sjiEvY8.webp?r=873"
-                            alt=""></div>
-
-                    <div class="item"><img
-                            src="https://occ-0-1917-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQaZz6w4WN-xljuaOiyyPIV2iwoXVJyvgdJu-AvWezdhexhlDUNxIZmg8fk2m7ValjyQ563IfsRtuKYh5UhD6ovWtfNAVdNfkcc_2mKttwIg1F3H_6YFxWpRd6lS_F7mOorK.webp?r=279 "
-                            alt="img"></div>
-
-                    <div class="item"><img
-                            src="https://occ-0-1917-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQzXaGfD-AkdJYI8dTxdVCMHaEKLuB-za_6PRMt6qN8GzCNxzT0rP-njK5RM5nQ3hbyrteXaLslVDxXEs1zhhwV0xq6-piKQwFUOrrkuwBr-omC8vt0Nhx1PCYt1jgkRHmyY.webp?r=3f5"
-                            alt="img"></div>
-
-                    <div class="item"><img
-                            src="https://occ-0-1917-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABV634RJ705XipxQXbUOmWTlPM6NMLGOMgv8O6-1mpxjUiHuGTO8aU_smM_58vn7E3eNAHVvWJq0PdI-Nfb186hH-lCfPKhOAdpg.webp?r=92a"
-                            alt="img"></div>
-
+                    <div class="item placeholder-thumb" style="--hue:0"></div>
+                    <div class="item placeholder-thumb" style="--hue:45"></div>
+                    <div class="item placeholder-thumb" style="--hue:90"></div>
+                    <div class="item placeholder-thumb" style="--hue:200"></div>
+                    <div class="item placeholder-thumb" style="--hue:260"></div>
 
                 </div>
 
@@ -120,31 +108,31 @@
             <div class="questions">
                 <h1>Frequently Asked Questions</h1>
                 <div class="question1">
-                    What is Netflix?<img src="assets/img/plus.svg" alt="img">
+                    What is StreamFlex?<img src="assets/img/plus.svg" alt="expand">
                 </div>
                 <div class="question2">
-                    How much does Netflix Cost?<img src="assets/img/plus.svg" alt="img">
+                    How much does StreamFlex cost?<img src="assets/img/plus.svg" alt="expand">
                 </div>
                 <div class="question3">
-                    Where can I watch?<img src="assets/img/plus.svg" alt="img">
+                    Where can I watch?<img src="assets/img/plus.svg" alt="expand">
                 </div>
                 <div class="question4">
-                    How do I cancel?<img src="assets/img/plus.svg" alt="img">
+                    How do I cancel?<img src="assets/img/plus.svg" alt="expand">
                 </div>
                 <div class="question5">
-                    What can I watch on Netflix?<img src="assets/img/plus.svg" alt="img">
+                    What can I watch on StreamFlex?<img src="assets/img/plus.svg" alt="expand">
                 </div>
                 <div class="question6">
-                    Is Netflix good for kids?<img src="assets/img/plus.svg" alt="img">
+                    Is StreamFlex good for kids?<img src="assets/img/plus.svg" alt="expand">
                 </div>
             </div>
         </section>
         <section class="bottom-cta">
             <div class="lastbutton">
-                <span>Ready to watch? Enter your email to create or restart your membership.</span>
+                <span>This is a demo form — it does not submit or store anything.</span>
                 <div class="cta-form">
-                    <input class="cta-input" name="email" type="text" placeholder="Enter your E-mail">
-                    <button class="cta-btn" type="submit">Get Started &gt;</button>
+                    <input class="cta-input" name="email" type="text" placeholder="Enter your E-mail (demo only)" disabled>
+                    <button class="cta-btn" type="button" onclick="return false;">Get Started &gt;</button>
                 </div>
             </div>
         </section>
@@ -154,7 +142,7 @@
 
             <div class="seperate">
 
-                <a href="">Questions? Contact us.</a>
+                <a href="#home">Questions? Contact us.</a>
             </div>
             <div class="footer">
 
@@ -175,7 +163,7 @@
                         href="#home">Account</a>
                     <a href="#home">Ways to Watch</a>
                     <a href="#home">Corporate Information</a>
-                    <a href="#home">Only on Netflix</a>
+                    <a href="#home">Only on StreamFlex</a>
                 </div>
                 <div class="footer-item">
                     <a href="#home">Media Center</a>
@@ -187,16 +175,16 @@
         <section>
             <div class="l-section">
                 <button type="submit" class="l-button">文A English </button>
-                <span>Netflix Pakistan</span>
+                <span>StreamFlex</span>
             </div>
         </section>
         <section>
             <div class="copyright">
                 <h3>© 2026 Ahmad Hassan. All rights reserved. Built as a student portfolio project.</h3>
-                <h3>Netflix Clone-September 6, 2026</h3>
+                <h3>StreamFlex UI Demo — September 6, 2026</h3>
             </div>
         </section>
     </footer>
 </body>
 
-</html>>>
+</html>
